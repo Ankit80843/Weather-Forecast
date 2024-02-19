@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border:none;
+    outline: none;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://img.freepik.com/free-photo/beautiful-nature-landscape-with-mountains-lake_23-2150706039.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1699488000&semt=ais);
+    /* background-color:  #02c4e2; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contener{
+    width:400px;
+    height:min-content;
+    background-color:rgba(7, 219, 231,0.9);
+    border-radius: 12px;
+    padding:28px;
+    border:2px solid black;
+    backdrop-filter: blur(100px);
+    box-shadow:0 0 5px #d4ba50,
+    0 0 25px  #939697,0 0 50px  #08282d,
+    0 0 100px  #588c94,0 0 200px  #0621d1;
+}
+.header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-size: 35px;
+    text-shadow: 0 0 200px  #031315;;
+}
+.search_bar{
+    width:100%;
+    height: min-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search_bar input{
+    width: 84%;
+    font-size: 20px;
+    text-transform: capitalize;
+    background-color: rgb(238, 247, 247);
+    padding:12px 16px;
+    border-radius: 14px;
+    border: 1px solid black;
+}
+.search_bar input::placeholder{
+    color:red;
+}
+.search_bar button{
+    width:46px;
+    height: 46px;
+    background-color: rgb(238, 247, 247);
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid black;
+    color:red;
+
+}
+.search_bar button:hover{
+background-color: black;
+color:white;
+box-shadow:0 0 5px #10b40d,
+0 0 25px #0ac40d,0 0 50px #43de0f,
+0 0 100px #02c009,0 0 200px #1cdf06;
+}
+.w_body img{
+width:60%;
+}
+.w_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-block:20px ;
+}
+.w_box{
+margin-block: 20px;
+text-align: center;
+}
+.w_box .Temp{
+    font-size: 40px;
+    font-weight: 800;
+    position: relative;
+}
+.w_box .Temp sup{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+}
+.w_box .discri{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.w_deat{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.humidity , .wind{
+    display: flex;
+    align-items: center;
+}
+.humidity {
+    margin-left: 20px;
+}
+.wind{
+    margin-right: 20px;
+}
+.w_deat .material-symbols-outlined{
+    font-size: 36px;
+}
+.w_deat .text{
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.w_deat .text span{
+    font-size: 20px;
+    font-weight: 700;
+}
