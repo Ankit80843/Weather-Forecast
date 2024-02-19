@@ -1,2 +1,2 @@
 # Weather-Forecast
-Weather Forecast by using html css and js
+Weather Forecast app by using html css and js
